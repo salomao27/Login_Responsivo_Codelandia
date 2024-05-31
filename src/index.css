@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .max-md-title {
+    @apply 
+    max-md:text-sm 
+    max-md:ml-4
+  }
+  .max-md-subtitle {
+    @apply 
+    max-md:text-2xl
+    max-md:ml-4
+  }
+  .max-md-label{
+    @apply 
+    max-md:text-sm 
+    max-md:ml-4
+  }
+  .max-md-input {
+    @apply 
+    max-md:w-72
+    max-md:ml-4
+  }
+  .max-md-check {
+    @apply 
+    max-md:justify-start
+    max-md:ml-4
+    max-md:text-sm
+  }
+  
+  .max-md-button {
+    @apply 
+    max-md:text-sm 
+    max-md:ml-6
+    max-md:w-72
+  }
+  .max-md-footer {
+    @apply 
+    max-md:text-sm 
+    max-md:mt-6
+    max-md:justify-center
+  }
+  
+}
