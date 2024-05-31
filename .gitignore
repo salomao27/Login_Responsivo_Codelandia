@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+src/img/print_desktop.png
+src/img/print_mobile.png
